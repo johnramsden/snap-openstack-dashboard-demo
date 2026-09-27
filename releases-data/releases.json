@@ -1,0 +1,223 @@
+{
+ "generated_at": "2026-09-27T18:57:08Z",
+ "schema_version": 4,
+ "sources": {
+  "snap-openstack": {
+   "channels": [
+    {
+     "arch": "amd64",
+     "base": null,
+     "released_at": "2026-09-09T04:03:00.207144+00:00",
+     "revision": 1101,
+     "risk": "stable",
+     "track": "2024.1",
+     "version": "2024.1-e69efaea"
+    },
+    {
+     "arch": "amd64",
+     "base": null,
+     "released_at": "2026-09-07T15:23:01.822961+00:00",
+     "revision": 1101,
+     "risk": "candidate",
+     "track": "2024.1",
+     "version": "2024.1-e69efaea"
+    },
+    {
+     "arch": "amd64",
+     "base": null,
+     "released_at": "2026-09-04T08:42:46.306324+00:00",
+     "revision": 1101,
+     "risk": "beta",
+     "track": "2024.1",
+     "version": "2024.1-e69efaea"
+    },
+    {
+     "arch": "amd64",
+     "base": null,
+     "released_at": "2026-09-18T06:52:02.557873+00:00",
+     "revision": 1110,
+     "risk": "edge",
+     "track": "2024.1",
+     "version": "2024.1-ce92fab1"
+    },
+    {
+     "arch": "amd64",
+     "base": null,
+     "released_at": "2023-05-31T16:16:42.203664+00:00",
+     "revision": 133,
+     "risk": "edge",
+     "track": "yoga",
+     "version": "yoga"
+    },
+    {
+     "arch": "amd64",
+     "base": null,
+     "released_at": "2026-09-18T06:45:31.879636+00:00",
+     "revision": 1109,
+     "risk": "edge",
+     "track": "2026.1",
+     "version": "2026.1-c1aaf489"
+    },
+    {
+     "arch": "amd64",
+     "base": null,
+     "released_at": "2026-06-01T02:19:14.550440+00:00",
+     "revision": 1010,
+     "risk": "beta",
+     "track": "2025.1",
+     "version": "2024.1"
+    },
+    {
+     "arch": "amd64",
+     "base": null,
+     "released_at": "2026-09-18T06:56:25.862510+00:00",
+     "revision": 1111,
+     "risk": "edge",
+     "track": "2025.1",
+     "version": "2025.1-715f321a"
+    },
+    {
+     "arch": "amd64",
+     "base": null,
+     "released_at": "2023-12-06T11:09:33.503039+00:00",
+     "revision": 335,
+     "risk": "stable",
+     "track": "2023.2",
+     "version": "2023.2"
+    },
+    {
+     "arch": "amd64",
+     "base": null,
+     "released_at": "2024-05-24T15:06:12.980809+00:00",
+     "revision": 509,
+     "risk": "candidate",
+     "track": "2023.2",
+     "version": "2023.2"
+    },
+    {
+     "arch": "amd64",
+     "base": null,
+     "released_at": "2024-05-24T15:28:04.591644+00:00",
+     "revision": 510,
+     "risk": "edge",
+     "track": "2023.2",
+     "version": "2023.2"
+    },
+    {
+     "arch": "amd64",
+     "base": null,
+     "released_at": "2023-11-13T15:04:43.557485+00:00",
+     "revision": 324,
+     "risk": "stable",
+     "track": "2023.1",
+     "version": "2023.1"
+    },
+    {
+     "arch": "amd64",
+     "base": null,
+     "released_at": "2024-01-12T12:20:56.503019+00:00",
+     "revision": 352,
+     "risk": "candidate",
+     "track": "2023.1",
+     "version": "2023.1"
+    },
+    {
+     "arch": "amd64",
+     "base": null,
+     "released_at": "2024-01-12T12:24:11.200688+00:00",
+     "revision": 354,
+     "risk": "edge",
+     "track": "2023.1",
+     "version": "2023.1"
+    }
+   ],
+   "collected_at": "2026-09-27T18:57:08Z",
+   "revisions": {
+    "1010": {
+     "branch": null,
+     "commit": null,
+     "note": "version '2024.1' does not match version_pattern -([0-9a-f]{7,40})\\Z",
+     "provenance": "unknown",
+     "retryable": false
+    },
+    "1101": {
+     "branch": null,
+     "commit": "e69efaea",
+     "note": "",
+     "provenance": "version string",
+     "retryable": false
+    },
+    "1109": {
+     "branch": null,
+     "commit": "c1aaf489",
+     "note": "",
+     "provenance": "version string",
+     "retryable": false
+    },
+    "1110": {
+     "branch": null,
+     "commit": "ce92fab1",
+     "note": "",
+     "provenance": "version string",
+     "retryable": false
+    },
+    "1111": {
+     "branch": null,
+     "commit": "715f321a",
+     "note": "",
+     "provenance": "version string",
+     "retryable": false
+    },
+    "133": {
+     "branch": null,
+     "commit": null,
+     "note": "version 'yoga' does not match version_pattern -([0-9a-f]{7,40})\\Z",
+     "provenance": "unknown",
+     "retryable": false
+    },
+    "324": {
+     "branch": null,
+     "commit": null,
+     "note": "version '2023.1' does not match version_pattern -([0-9a-f]{7,40})\\Z",
+     "provenance": "unknown",
+     "retryable": false
+    },
+    "335": {
+     "branch": null,
+     "commit": null,
+     "note": "version '2023.2' does not match version_pattern -([0-9a-f]{7,40})\\Z",
+     "provenance": "unknown",
+     "retryable": false
+    },
+    "352": {
+     "branch": null,
+     "commit": null,
+     "note": "version '2023.1' does not match version_pattern -([0-9a-f]{7,40})\\Z",
+     "provenance": "unknown",
+     "retryable": false
+    },
+    "354": {
+     "branch": null,
+     "commit": null,
+     "note": "version '2023.1' does not match version_pattern -([0-9a-f]{7,40})\\Z",
+     "provenance": "unknown",
+     "retryable": false
+    },
+    "509": {
+     "branch": null,
+     "commit": null,
+     "note": "version '2023.2' does not match version_pattern -([0-9a-f]{7,40})\\Z",
+     "provenance": "unknown",
+     "retryable": false
+    },
+    "510": {
+     "branch": null,
+     "commit": null,
+     "note": "version '2023.2' does not match version_pattern -([0-9a-f]{7,40})\\Z",
+     "provenance": "unknown",
+     "retryable": false
+    }
+   }
+  }
+ }
+}

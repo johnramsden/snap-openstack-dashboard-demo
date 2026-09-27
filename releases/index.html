@@ -30,17 +30,45 @@
 <div class="row">
 <h1 class="p-heading--2">Releases</h1>
 <p>Every actively published snap and charm revision, and the commit it was built from. Risks read left to right as a promotion pipeline; hover a revision for its version, branch, and provenance.</p>
-<div class="p-notification--information">
-<div class="p-notification__content">
-<p class="p-notification__message">No release data collected yet — <code>ci-dashboard collect-releases</code> has not run.</p>
 </div>
+</section>
+<section class="p-strip is-shallow u-no-padding--top">
+<div class="row">
+<h2 class="p-heading--3">openstack <span class="p-text--small u-text--muted">snap</span></h2>
+<p class="p-text--small u-text--muted"><a href="https://github.com/canonical/snap-openstack">canonical/snap-openstack</a></p>
+
+<div class="ci-arch__panel" data-section="snap-openstack" data-arch="amd64">
+<p class="p-text--small u-text--muted">4 of 5 revisions mapped via <span class="p-status-label--information">version string</span> · 7 channels hidden, nothing released since 2024-09</p>
+<table class="ci-jobs p-table--mobile-card">
+<thead><tr><th>Track</th><th>stable</th><th>candidate</th><th>beta</th><th>edge</th></tr></thead>
+<tbody>
+<tr><td data-heading="Track">2024.1</td><td data-heading="stable"><span title="revision 1101 · 2024.1-e69efaea · version string">1101 · <a href="https://github.com/canonical/snap-openstack/commit/e69efaea"><code>e69efaea</code></a></span></td><td data-heading="candidate"><span title="revision 1101 · 2024.1-e69efaea · version string">1101 · <a href="https://github.com/canonical/snap-openstack/commit/e69efaea"><code>e69efaea</code></a></span></td><td data-heading="beta"><span title="revision 1101 · 2024.1-e69efaea · version string">1101 · <a href="https://github.com/canonical/snap-openstack/commit/e69efaea"><code>e69efaea</code></a></span></td><td data-heading="edge"><span title="revision 1110 · 2024.1-ce92fab1 · version string">1110 · <a href="https://github.com/canonical/snap-openstack/commit/ce92fab1"><code>ce92fab1</code></a></span></td></tr>
+<tr><td data-heading="Track">2025.1</td><td data-heading="stable"><span class="u-text--muted" aria-label="not published">·</span></td><td data-heading="candidate"><span class="u-text--muted" aria-label="not published">·</span></td><td data-heading="beta"><span title="revision 1010 · 2024.1 · version &#39;2024.1&#39; does not match version_pattern -([0-9a-f]{7,40})\Z">1010 · <span class="u-text--muted">unknown</span></span></td><td data-heading="edge"><span title="revision 1111 · 2025.1-715f321a · version string">1111 · <a href="https://github.com/canonical/snap-openstack/commit/715f321a"><code>715f321a</code></a></span></td></tr>
+<tr><td data-heading="Track">2026.1</td><td data-heading="stable"><span class="u-text--muted" aria-label="not published">·</span></td><td data-heading="candidate"><span class="u-text--muted" aria-label="not published">·</span></td><td data-heading="beta"><span class="u-text--muted" aria-label="not published">·</span></td><td data-heading="edge"><span title="revision 1109 · 2026.1-c1aaf489 · version string">1109 · <a href="https://github.com/canonical/snap-openstack/commit/c1aaf489"><code>c1aaf489</code></a></span></td></tr>
+</tbody>
+</table>
+
 </div>
+
+</div>
+</section>
+<section class="p-strip is-shallow u-no-padding--top">
+<div class="row">
+<h2 class="p-heading--4">How a commit is established</h2>
+<ul class="p-list--divided">
+<li class="p-list__item"><span class="p-status-label--positive">git tag</span> the publish workflow tagged the commit it built.</li>
+<li class="p-list__item"><span class="p-status-label--positive">git-info.txt</span> the build wrote the commit into the package.</li>
+<li class="p-list__item"><span class="p-status-label--information">version string</span> parsed from the snap's version, which its build stamps with the commit. A convention, not recorded metadata.</li>
+<li class="p-list__item"><strong>unknown</strong> no mechanism resolved this revision. Hover it for why.</li>
+<li class="p-list__item"><strong>·</strong> nothing is published on that risk, for the selected architecture.</li>
+</ul>
+<p class="p-text--small u-text--muted">Risks shown: <code>stable</code>, <code>candidate</code>, <code>beta</code>, <code>edge</code>. Rows with no release in the last 730 days are hidden; the stores never retire a channel. Each table shows one architecture and opens on <code>amd64</code> — revisions are numbered per architecture, and their commits sometimes differ. All set in the dashboard config.</p>
 </div>
 </section>
   </main>
   <footer class="p-strip is-shallow">
     <div class="row">
-      <p class="p-text--small u-text--muted">No release data collected yet.</p>
+      <p class="p-text--small u-text--muted">Data collected 2026-09-27 18:57 UTC from the Snap Store.</p>
     </div>
   </footer>
   <script src="../static/vendor/uplot/uPlot.iife.min.js"></script>
