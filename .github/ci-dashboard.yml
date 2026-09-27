@@ -1,0 +1,27 @@
+# Demo: ci-dashboard (https://github.com/johnramsden/ci-dashboard) watching
+# canonical/snap-openstack. Every key is documented in its README.
+site:
+  title: "Sunbeam CI (demo)"
+  description: "Post-merge CI health and snap release provenance for canonical/snap-openstack."
+
+defaults:
+  lookback_days: 30
+  flaky_rate_threshold: 3.0   # percent
+
+groups:
+  - name: Sunbeam
+    repos:
+      - repo: canonical/snap-openstack
+        branches: [main, stable/2025.1, stable/2024.1]
+        exclude:
+          - workflow: "Sync Git Tags"   # bot housekeeping, not a test
+          - workflow: "TICS scan"       # static-analysis upload, not a test
+
+releases:
+  risks: [stable, candidate, beta, edge]
+  groups:
+    - repo: canonical/snap-openstack
+      provenance: version-string
+      # snapcraft.yaml stamps the version as <track>-<short sha>, e.g. 2024.1-e69efaea
+      version_pattern: '-([0-9a-f]{7,40})\Z'
+      assets: [openstack]
