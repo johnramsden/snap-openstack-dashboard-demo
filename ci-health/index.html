@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CI Health · Sunbeam CI (demo)</title>
+  <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla_framework_version_4.55.0.min.css" />
+  <link rel="stylesheet" href="../static/vendor/uplot/uPlot.min.css" />
+  <link rel="stylesheet" href="../static/ci-health.css" />
+</head>
+<body>
+  <header id="navigation" class="p-navigation is-dark">
+    <div class="p-navigation__row">
+      <div class="p-navigation__banner">
+        <div class="p-navigation__tagged-logo">
+          <a class="p-navigation__link" href="../index.html">
+            <span class="p-navigation__logo-title">Sunbeam CI (demo)</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+<section class="p-strip is-shallow u-no-padding--bottom">
+<div class="row">
+<nav class="p-breadcrumbs" aria-label="Breadcrumbs"><ol class="p-breadcrumbs__items"><li class="p-breadcrumbs__item"><a href="../index.html">Sunbeam CI (demo)</a></li><li class="p-breadcrumbs__item">CI Health</li></ol></nav>
+</div>
+</section>
+<section class="p-strip is-shallow u-no-padding--bottom">
+<div class="row">
+<h1 class="p-heading--2">CI Health</h1>
+<p>Post-merge CI flakiness metrics per repository: only push/schedule/dispatch runs on the monitored branches are counted, so every failure is a false positive or a regression.</p>
+</div>
+</section>
+<section class="p-strip is-shallow">
+<div class="row">
+<h2 class="p-heading--3">Sunbeam</h2>
+</div>
+<div class="row">
+<div class="col-4">
+<div class="p-card">
+<h3 class="p-card__title"><a href="canonical--snap-openstack/index.html">canonical/snap-openstack</a></h3>
+<p><span class="p-status-label">No data yet</span></p>
+</div>
+</div>
+</div>
+</section>
+  </main>
+  <footer class="p-strip is-shallow">
+    <div class="row">
+      <p class="p-text--small u-text--muted">No CI health data collected yet.</p>
+    </div>
+  </footer>
+  <script src="../static/vendor/uplot/uPlot.iife.min.js"></script>
+  <script src="../static/ci-health-chart.js"></script>
+  <script src="../static/releases-arch.js"></script>
+</body>
+</html>
