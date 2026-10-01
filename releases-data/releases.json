@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T12:36:35Z",
+ "generated_at": "2026-10-01T13:16:32Z",
  "schema_version": 4,
  "sources": {
   "snap-openstack": {
@@ -34,11 +34,11 @@
     {
      "arch": "amd64",
      "base": null,
-     "released_at": "2026-09-18T06:52:02.557873+00:00",
-     "revision": 1110,
+     "released_at": "2026-09-30T22:48:47.295892+00:00",
+     "revision": 1116,
      "risk": "edge",
      "track": "2024.1",
-     "version": "2024.1-ce92fab1"
+     "version": "2024.1-225a3ed5"
     },
     {
      "arch": "amd64",
@@ -52,11 +52,11 @@
     {
      "arch": "amd64",
      "base": null,
-     "released_at": "2026-09-30T00:06:29.976113+00:00",
-     "revision": 1113,
+     "released_at": "2026-09-30T22:40:42.834676+00:00",
+     "revision": 1114,
      "risk": "edge",
      "track": "2026.1",
-     "version": "2026.1-9eef3413"
+     "version": "2026.1-7e0b5fb2"
     },
     {
      "arch": "amd64",
@@ -70,11 +70,11 @@
     {
      "arch": "amd64",
      "base": null,
-     "released_at": "2026-09-18T06:56:25.862510+00:00",
-     "revision": 1111,
+     "released_at": "2026-09-30T22:45:37.171873+00:00",
+     "revision": 1115,
      "risk": "edge",
      "track": "2025.1",
-     "version": "2025.1-715f321a"
+     "version": "2025.1-24c51f09"
     },
     {
      "arch": "amd64",
@@ -131,7 +131,7 @@
      "version": "2023.1"
     }
    ],
-   "collected_at": "2026-09-30T12:36:35Z",
+   "collected_at": "2026-10-01T13:16:32Z",
    "revisions": {
     "1010": {
      "branch": null,
@@ -171,6 +171,27 @@
     "1113": {
      "branch": null,
      "commit": "9eef3413",
+     "note": "",
+     "provenance": "version string",
+     "retryable": false
+    },
+    "1114": {
+     "branch": null,
+     "commit": "7e0b5fb2",
+     "note": "",
+     "provenance": "version string",
+     "retryable": false
+    },
+    "1115": {
+     "branch": null,
+     "commit": "24c51f09",
+     "note": "",
+     "provenance": "version string",
+     "retryable": false
+    },
+    "1116": {
+     "branch": null,
+     "commit": "225a3ed5",
      "note": "",
      "provenance": "version string",
      "retryable": false
