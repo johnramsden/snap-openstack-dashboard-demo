@@ -29,7 +29,7 @@
 <section class="p-strip is-shallow">
 <div class="row">
 <h1 class="p-heading--2">canonical/snap-openstack</h1>
-<p>Last 30 days · generated 2026-10-07 13:23 UTC · <a href="https://github.com/canonical/snap-openstack/actions">GitHub Actions</a></p>
+<p>Last 30 days · generated 2026-10-08 13:29 UTC · <a href="https://github.com/canonical/snap-openstack/actions">GitHub Actions</a></p>
 </div>
 </section>
 <section class="p-strip is-shallow u-no-padding--top">
@@ -37,7 +37,7 @@
 <h2 class="p-heading--4">Flaky rate over time</h2>
 <div class="ci-chart">
 <div class="ci-chart__canvas"></div>
-<script type="application/json" class="ci-chart__data">{"dates": ["2026-09-27", "2026-09-28", "2026-09-29", "2026-09-30", "2026-10-01", "2026-10-02", "2026-10-03", "2026-10-04", "2026-10-05", "2026-10-06", "2026-10-07"], "series": [{"color": "#0066cc", "label": "main", "values": [5.208333333333334, 5.319148936170213, 6.25, 6.837606837606838, 7.339449541284404, 7.339449541284404, 7.920792079207921, 8.60215053763441, 7.526881720430108, 3.061224489795918, 1.1627906976744187]}, {"color": "#e95420", "label": "stable/2025.1", "values": [null, null, null, null, null, null, null, null, null, null, null]}, {"color": "#775da8", "label": "stable/2024.1", "values": [100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, null]}], "threshold": 3.0}</script>
+<script type="application/json" class="ci-chart__data">{"dates": ["2026-09-27", "2026-09-28", "2026-09-29", "2026-09-30", "2026-10-01", "2026-10-02", "2026-10-03", "2026-10-04", "2026-10-05", "2026-10-06", "2026-10-07", "2026-10-08"], "series": [{"color": "#0066cc", "label": "main", "values": [5.208333333333334, 5.319148936170213, 6.25, 6.837606837606838, 7.339449541284404, 7.339449541284404, 7.920792079207921, 8.60215053763441, 7.526881720430108, 3.061224489795918, 1.1627906976744187, 6.428571428571428]}, {"color": "#e95420", "label": "stable/2025.1", "values": [null, null, null, null, null, null, null, null, null, null, null, null]}, {"color": "#775da8", "label": "stable/2024.1", "values": [100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, null, null]}], "threshold": 3.0}</script>
 </div>
 <p class="p-text--small u-text--muted">Flaky rate per branch; every point is a 30-day rolling window.</p>
 </div>
@@ -45,26 +45,27 @@
 <section class="p-strip is-shallow u-no-padding--top">
 <div class="row">
 <h2 class="p-heading--3"><code>main</code></h2>
-<p>1.2% flaky rate <span class="p-status-label--positive">OK</span> — 1 failure / 86 job runs (acceptance: &lt; 3%)</p>
+<p>6.4% flaky rate <span class="p-status-label--negative">Above threshold</span> — 9 failures / 140 job runs (acceptance: &lt; 3%)</p>
 <table class="ci-jobs p-table--mobile-card">
 <thead><tr><th>Workflow</th><th>Job</th><th class="u-align--right">Runs</th><th class="u-align--right">Failures</th><th class="u-align--right">Infra</th><th class="u-align--right">Rate</th><th>Trend</th></tr></thead>
 <tbody>
-<tr><td data-heading="Workflow">Build Snap</td><td data-heading="Job"><a href="jobs/build-snap-functional-test-7182b3dc/index.html">Functional test</a></td><td data-heading="Runs" class="u-align--right">11</td><td data-heading="Failures" class="u-align--right">1</td><td data-heading="Infra" class="u-align--right">0</td><td data-heading="Rate" class="u-align--right">9.1%</td><td data-heading="Trend">—</td></tr>
-<tr><td data-heading="Workflow">Build Snap</td><td data-heading="Job"><a href="jobs/build-snap-build-snap-4e9bcac1/index.html">Build snap</a></td><td data-heading="Runs" class="u-align--right">11</td><td data-heading="Failures" class="u-align--right">0</td><td data-heading="Infra" class="u-align--right">0</td><td data-heading="Rate" class="u-align--right">0.0%</td><td data-heading="Trend">—</td></tr>
-<tr><td data-heading="Workflow">Push (main)</td><td data-heading="Job"><a href="jobs/push-main-build-build-snap-f9a49a74/index.html">build / Build snap</a></td><td data-heading="Runs" class="u-align--right">8</td><td data-heading="Failures" class="u-align--right">0</td><td data-heading="Infra" class="u-align--right">0</td><td data-heading="Rate" class="u-align--right">0.0%</td><td data-heading="Trend">—</td></tr>
-<tr><td data-heading="Workflow">Push (main)</td><td data-heading="Job"><a href="jobs/push-main-build-functional-test-7b3b3ce0/index.html">build / Functional test</a></td><td data-heading="Runs" class="u-align--right">8</td><td data-heading="Failures" class="u-align--right">0</td><td data-heading="Infra" class="u-align--right">0</td><td data-heading="Rate" class="u-align--right">0.0%</td><td data-heading="Trend">—</td></tr>
-<tr><td data-heading="Workflow">Push (main)</td><td data-heading="Job"><a href="jobs/push-main-build-microcluster-build-binary-4ee10531/index.html">build-microcluster / Build binary</a></td><td data-heading="Runs" class="u-align--right">8</td><td data-heading="Failures" class="u-align--right">0</td><td data-heading="Infra" class="u-align--right">0</td><td data-heading="Rate" class="u-align--right">0.0%</td><td data-heading="Trend">—</td></tr>
-<tr><td data-heading="Workflow">Push (main)</td><td data-heading="Job"><a href="jobs/push-main-test-golang-lint-c4114803/index.html">test-golang / Lint</a></td><td data-heading="Runs" class="u-align--right">8</td><td data-heading="Failures" class="u-align--right">0</td><td data-heading="Infra" class="u-align--right">0</td><td data-heading="Rate" class="u-align--right">0.0%</td><td data-heading="Trend">—</td></tr>
-<tr><td data-heading="Workflow">Push (main)</td><td data-heading="Job"><a href="jobs/push-main-test-golang-unit-tests-0b292903/index.html">test-golang / Unit tests</a></td><td data-heading="Runs" class="u-align--right">8</td><td data-heading="Failures" class="u-align--right">0</td><td data-heading="Infra" class="u-align--right">0</td><td data-heading="Rate" class="u-align--right">0.0%</td><td data-heading="Trend">—</td></tr>
-<tr><td data-heading="Workflow">Push (main)</td><td data-heading="Job"><a href="jobs/push-main-test-python-lint-681dbdcc/index.html">test-python / Lint</a></td><td data-heading="Runs" class="u-align--right">8</td><td data-heading="Failures" class="u-align--right">0</td><td data-heading="Infra" class="u-align--right">0</td><td data-heading="Rate" class="u-align--right">0.0%</td><td data-heading="Trend">—</td></tr>
-<tr><td data-heading="Workflow">Push (main)</td><td data-heading="Job"><a href="jobs/push-main-test-python-type-check-8b361ea9/index.html">test-python / Type Check</a></td><td data-heading="Runs" class="u-align--right">8</td><td data-heading="Failures" class="u-align--right">0</td><td data-heading="Infra" class="u-align--right">0</td><td data-heading="Rate" class="u-align--right">0.0%</td><td data-heading="Trend">—</td></tr>
-<tr><td data-heading="Workflow">Push (main)</td><td data-heading="Job"><a href="jobs/push-main-test-python-unit-tests-68312e77/index.html">test-python / Unit tests</a></td><td data-heading="Runs" class="u-align--right">8</td><td data-heading="Failures" class="u-align--right">0</td><td data-heading="Infra" class="u-align--right">0</td><td data-heading="Rate" class="u-align--right">0.0%</td><td data-heading="Trend">—</td></tr>
+<tr><td data-heading="Workflow">Push (main)</td><td data-heading="Job"><a href="jobs/push-main-build-functional-test-7b3b3ce0/index.html">build / Functional test</a></td><td data-heading="Runs" class="u-align--right">12</td><td data-heading="Failures" class="u-align--right">5</td><td data-heading="Infra" class="u-align--right">0</td><td data-heading="Rate" class="u-align--right">41.7%</td><td data-heading="Trend">—</td></tr>
+<tr><td data-heading="Workflow">Build Snap</td><td data-heading="Job"><a href="jobs/build-snap-functional-test-7182b3dc/index.html">Functional test</a></td><td data-heading="Runs" class="u-align--right">15</td><td data-heading="Failures" class="u-align--right">4</td><td data-heading="Infra" class="u-align--right">0</td><td data-heading="Rate" class="u-align--right">26.7%</td><td data-heading="Trend">—</td></tr>
+<tr><td data-heading="Workflow">Build Snap</td><td data-heading="Job"><a href="jobs/build-snap-build-snap-4e9bcac1/index.html">Build snap</a></td><td data-heading="Runs" class="u-align--right">15</td><td data-heading="Failures" class="u-align--right">0</td><td data-heading="Infra" class="u-align--right">0</td><td data-heading="Rate" class="u-align--right">0.0%</td><td data-heading="Trend">—</td></tr>
+<tr><td data-heading="Workflow">Push (main)</td><td data-heading="Job"><a href="jobs/push-main-build-build-snap-f9a49a74/index.html">build / Build snap</a></td><td data-heading="Runs" class="u-align--right">14</td><td data-heading="Failures" class="u-align--right">0</td><td data-heading="Infra" class="u-align--right">0</td><td data-heading="Rate" class="u-align--right">0.0%</td><td data-heading="Trend">—</td></tr>
+<tr><td data-heading="Workflow">Push (main)</td><td data-heading="Job"><a href="jobs/push-main-build-microcluster-build-binary-4ee10531/index.html">build-microcluster / Build binary</a></td><td data-heading="Runs" class="u-align--right">14</td><td data-heading="Failures" class="u-align--right">0</td><td data-heading="Infra" class="u-align--right">0</td><td data-heading="Rate" class="u-align--right">0.0%</td><td data-heading="Trend">—</td></tr>
+<tr><td data-heading="Workflow">Push (main)</td><td data-heading="Job"><a href="jobs/push-main-test-golang-lint-c4114803/index.html">test-golang / Lint</a></td><td data-heading="Runs" class="u-align--right">14</td><td data-heading="Failures" class="u-align--right">0</td><td data-heading="Infra" class="u-align--right">0</td><td data-heading="Rate" class="u-align--right">0.0%</td><td data-heading="Trend">—</td></tr>
+<tr><td data-heading="Workflow">Push (main)</td><td data-heading="Job"><a href="jobs/push-main-test-golang-unit-tests-0b292903/index.html">test-golang / Unit tests</a></td><td data-heading="Runs" class="u-align--right">14</td><td data-heading="Failures" class="u-align--right">0</td><td data-heading="Infra" class="u-align--right">0</td><td data-heading="Rate" class="u-align--right">0.0%</td><td data-heading="Trend">—</td></tr>
+<tr><td data-heading="Workflow">Push (main)</td><td data-heading="Job"><a href="jobs/push-main-test-python-lint-681dbdcc/index.html">test-python / Lint</a></td><td data-heading="Runs" class="u-align--right">14</td><td data-heading="Failures" class="u-align--right">0</td><td data-heading="Infra" class="u-align--right">0</td><td data-heading="Rate" class="u-align--right">0.0%</td><td data-heading="Trend">—</td></tr>
+<tr><td data-heading="Workflow">Push (main)</td><td data-heading="Job"><a href="jobs/push-main-test-python-type-check-8b361ea9/index.html">test-python / Type Check</a></td><td data-heading="Runs" class="u-align--right">14</td><td data-heading="Failures" class="u-align--right">0</td><td data-heading="Infra" class="u-align--right">0</td><td data-heading="Rate" class="u-align--right">0.0%</td><td data-heading="Trend">—</td></tr>
+<tr><td data-heading="Workflow">Push (main)</td><td data-heading="Job"><a href="jobs/push-main-test-python-unit-tests-68312e77/index.html">test-python / Unit tests</a></td><td data-heading="Runs" class="u-align--right">14</td><td data-heading="Failures" class="u-align--right">0</td><td data-heading="Infra" class="u-align--right">0</td><td data-heading="Rate" class="u-align--right">0.0%</td><td data-heading="Trend">—</td></tr>
 </tbody>
 </table>
 
 <h3 class="p-heading--5">Top 5 failing jobs</h3>
 <ol class="p-list--divided">
-<li class="p-list__item"><strong>Build Snap / Functional test</strong> — 1 failures (9.1%)</li>
+<li class="p-list__item"><strong>Push (main) / build / Functional test</strong> — 5 failures (41.7%)</li>
+<li class="p-list__item"><strong>Build Snap / Functional test</strong> — 4 failures (26.7%)</li>
 </ol>
 
 </div>
@@ -96,17 +97,17 @@
 <table class="ci-jobs p-table--mobile-card">
 <thead><tr><th>Workflow</th><th>Job</th><th>Branches</th><th class="u-align--right">Job runs</th><th>Excluded by</th></tr></thead>
 <tbody>
-<tr><td data-heading="Workflow">Sync Git Tags</td><td data-heading="Job">Sync Git Tags from Snap Builds</td><td data-heading="Branches"><code>main</code></td><td data-heading="Job runs" class="u-align--right">95</td><td data-heading="Excluded by"><code>workflow=&#34;Sync Git Tags&#34;</code></td></tr>
-<tr><td data-heading="Workflow">TICS scan</td><td data-heading="Job">TICS</td><td data-heading="Branches"><code>main</code></td><td data-heading="Job runs" class="u-align--right">2</td><td data-heading="Excluded by"><code>workflow=&#34;TICS scan&#34;</code></td></tr>
+<tr><td data-heading="Workflow">Sync Git Tags</td><td data-heading="Job">Sync Git Tags from Snap Builds</td><td data-heading="Branches"><code>main</code></td><td data-heading="Job runs" class="u-align--right">120</td><td data-heading="Excluded by"><code>workflow=&#34;Sync Git Tags&#34;</code></td></tr>
+<tr><td data-heading="Workflow">TICS scan</td><td data-heading="Job">TICS</td><td data-heading="Branches"><code>main</code></td><td data-heading="Job runs" class="u-align--right">4</td><td data-heading="Excluded by"><code>workflow=&#34;TICS scan&#34;</code></td></tr>
 </tbody>
 </table>
-<p class="p-text--small u-text--muted">2 job types, 97 job runs skipped in this window.</p>
+<p class="p-text--small u-text--muted">2 job types, 124 job runs skipped in this window.</p>
 </div>
 </section>
   </main>
   <footer class="p-strip is-shallow">
     <div class="row">
-      <p class="p-text--small u-text--muted">Data collected 2026-10-07 13:23 UTC from the GitHub Actions API.</p>
+      <p class="p-text--small u-text--muted">Data collected 2026-10-08 13:29 UTC from the GitHub Actions API.</p>
     </div>
   </footer>
   <script src="../../static/vendor/uplot/uPlot.iife.min.js"></script>
