@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T13:19:02Z",
+ "generated_at": "2026-10-10T12:33:54Z",
  "schema_version": 4,
  "sources": {
   "snap-openstack": {
@@ -34,11 +34,11 @@
     {
      "arch": "amd64",
      "base": null,
-     "released_at": "2026-10-08T11:07:56.448318+00:00",
-     "revision": 1129,
+     "released_at": "2026-10-09T11:21:50.458902+00:00",
+     "revision": 1134,
      "risk": "edge",
      "track": "2024.1",
-     "version": "2024.1-cc0a7f72"
+     "version": "2024.1-bfe4698d"
     },
     {
      "arch": "amd64",
@@ -52,8 +52,8 @@
     {
      "arch": "amd64",
      "base": null,
-     "released_at": "2026-10-07T16:20:58.995156+00:00",
-     "revision": 1124,
+     "released_at": "2026-10-09T12:24:11.497469+00:00",
+     "revision": 1135,
      "risk": "edge",
      "track": "2026.1",
      "version": "2026.1-c40f1f30"
@@ -70,11 +70,11 @@
     {
      "arch": "amd64",
      "base": null,
-     "released_at": "2026-10-08T11:04:00.187350+00:00",
-     "revision": 1128,
+     "released_at": "2026-10-09T11:19:32.191559+00:00",
+     "revision": 1133,
      "risk": "edge",
      "track": "2025.1",
-     "version": "2025.1-42e24798"
+     "version": "2025.1-76d35fdb"
     },
     {
      "arch": "amd64",
@@ -131,7 +131,7 @@
      "version": "2023.1"
     }
    ],
-   "collected_at": "2026-10-08T13:31:38Z",
+   "collected_at": "2026-10-10T12:33:54Z",
    "revisions": {
     "1010": {
      "branch": null,
@@ -241,6 +241,27 @@
     "1129": {
      "branch": null,
      "commit": "cc0a7f72",
+     "note": "",
+     "provenance": "version string",
+     "retryable": false
+    },
+    "1133": {
+     "branch": null,
+     "commit": "76d35fdb",
+     "note": "",
+     "provenance": "version string",
+     "retryable": false
+    },
+    "1134": {
+     "branch": null,
+     "commit": "bfe4698d",
+     "note": "",
+     "provenance": "version string",
+     "retryable": false
+    },
+    "1135": {
+     "branch": null,
+     "commit": "c40f1f30",
      "note": "",
      "provenance": "version string",
      "retryable": false
