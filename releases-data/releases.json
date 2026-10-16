@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T11:31:10Z",
+ "generated_at": "2026-10-16T11:26:24Z",
  "schema_version": 4,
  "sources": {
   "snap-openstack": {
@@ -34,11 +34,11 @@
     {
      "arch": "amd64",
      "base": null,
-     "released_at": "2026-10-14T09:19:09.317198+00:00",
-     "revision": 1141,
+     "released_at": "2026-10-16T07:00:40.456186+00:00",
+     "revision": 1152,
      "risk": "edge",
      "track": "2024.1",
-     "version": "2024.1-534ad3cd"
+     "version": "2024.1-4ae5cf44"
     },
     {
      "arch": "amd64",
@@ -52,11 +52,11 @@
     {
      "arch": "amd64",
      "base": null,
-     "released_at": "2026-10-14T19:32:54.262452+00:00",
-     "revision": 1145,
+     "released_at": "2026-10-15T21:20:49.280484+00:00",
+     "revision": 1151,
      "risk": "edge",
      "track": "2026.2",
-     "version": "2026.1-42b251fd"
+     "version": "2026.1-bb89fedb"
     },
     {
      "arch": "amd64",
@@ -70,11 +70,11 @@
     {
      "arch": "amd64",
      "base": null,
-     "released_at": "2026-10-14T19:42:35.037904+00:00",
-     "revision": 1146,
+     "released_at": "2026-10-16T07:09:25.727106+00:00",
+     "revision": 1154,
      "risk": "edge",
      "track": "2026.1",
-     "version": "2026.1-82b30b33"
+     "version": "2026.1-a101d3ac"
     },
     {
      "arch": "amd64",
@@ -88,11 +88,11 @@
     {
      "arch": "amd64",
      "base": null,
-     "released_at": "2026-10-14T09:21:20.102448+00:00",
-     "revision": 1142,
+     "released_at": "2026-10-16T07:06:32.342538+00:00",
+     "revision": 1153,
      "risk": "edge",
      "track": "2025.1",
-     "version": "2025.1-c0a2f534"
+     "version": "2025.1-e55c2a8f"
     },
     {
      "arch": "amd64",
@@ -149,7 +149,7 @@
      "version": "2023.1"
     }
    ],
-   "collected_at": "2026-10-15T11:31:10Z",
+   "collected_at": "2026-10-16T11:26:24Z",
    "revisions": {
     "1010": {
      "branch": null,
@@ -336,6 +336,34 @@
     "1146": {
      "branch": null,
      "commit": "82b30b33",
+     "note": "",
+     "provenance": "version string",
+     "retryable": false
+    },
+    "1151": {
+     "branch": null,
+     "commit": "bb89fedb",
+     "note": "",
+     "provenance": "version string",
+     "retryable": false
+    },
+    "1152": {
+     "branch": null,
+     "commit": "4ae5cf44",
+     "note": "",
+     "provenance": "version string",
+     "retryable": false
+    },
+    "1153": {
+     "branch": null,
+     "commit": "e55c2a8f",
+     "note": "",
+     "provenance": "version string",
+     "retryable": false
+    },
+    "1154": {
+     "branch": null,
+     "commit": "a101d3ac",
      "note": "",
      "provenance": "version string",
      "retryable": false
