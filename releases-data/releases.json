@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T13:16:59Z",
+ "generated_at": "2026-10-20T11:39:08Z",
  "schema_version": 4,
  "sources": {
   "snap-openstack": {
@@ -25,11 +25,11 @@
     {
      "arch": "amd64",
      "base": null,
-     "released_at": "2026-09-04T08:42:46.306324+00:00",
-     "revision": 1101,
+     "released_at": "2026-10-20T03:25:35.981170+00:00",
+     "revision": 1157,
      "risk": "beta",
      "track": "2024.1",
-     "version": "2024.1-e69efaea"
+     "version": "2024.1-18458652"
     },
     {
      "arch": "amd64",
@@ -52,11 +52,11 @@
     {
      "arch": "amd64",
      "base": null,
-     "released_at": "2026-10-16T19:46:06.492543+00:00",
-     "revision": 1155,
+     "released_at": "2026-10-19T13:43:30.065856+00:00",
+     "revision": 1158,
      "risk": "edge",
      "track": "2026.2",
-     "version": "2026.1-d9e76543"
+     "version": "2026.1-59099338"
     },
     {
      "arch": "amd64",
@@ -149,7 +149,7 @@
      "version": "2023.1"
     }
    ],
-   "collected_at": "2026-10-19T13:16:59Z",
+   "collected_at": "2026-10-20T11:39:08Z",
    "revisions": {
     "1010": {
      "branch": null,
@@ -385,6 +385,13 @@
     "1157": {
      "branch": null,
      "commit": "18458652",
+     "note": "",
+     "provenance": "version string",
+     "retryable": false
+    },
+    "1158": {
+     "branch": null,
+     "commit": "59099338",
      "note": "",
      "provenance": "version string",
      "retryable": false
