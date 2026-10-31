@@ -1,0 +1,897 @@
+{
+ "branches": {
+  "main": {
+   "jobs": [
+    {
+     "buckets": [
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      }
+     ],
+     "failures": 0,
+     "infra_failures": 0,
+     "infra_kinds": {},
+     "job": "Build snap",
+     "recent_failures": [],
+     "runs": 15,
+     "workflow": "Build Snap"
+    },
+    {
+     "buckets": [
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 1,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      },
+      {
+       "failures": 1,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      }
+     ],
+     "failures": 2,
+     "infra_failures": 0,
+     "infra_kinds": {},
+     "job": "Functional test",
+     "recent_failures": [
+      {
+       "date": "2026-10-17",
+       "run_id": 39002955797,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/39002955797/job/117311555660"
+      },
+      {
+       "date": "2026-10-09",
+       "run_id": 37884909509,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/37884909509/job/113676014413"
+      }
+     ],
+     "runs": 14,
+     "workflow": "Build Snap"
+    },
+    {
+     "buckets": [
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 6
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 6
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 3
+      }
+     ],
+     "failures": 0,
+     "infra_failures": 0,
+     "infra_kinds": {},
+     "job": "build / Build snap",
+     "recent_failures": [],
+     "runs": 24,
+     "workflow": "Push (main)"
+    },
+    {
+     "buckets": [
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      },
+      {
+       "failures": 3,
+       "infra_failures": 0,
+       "runs": 6
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 1,
+       "infra_failures": 0,
+       "runs": 5
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      },
+      {
+       "failures": 2,
+       "infra_failures": 0,
+       "runs": 3
+      }
+     ],
+     "failures": 6,
+     "infra_failures": 0,
+     "infra_kinds": {},
+     "job": "build / Functional test",
+     "recent_failures": [
+      {
+       "date": "2026-10-30",
+       "run_id": 41073912805,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/41073912805/job/124130500898"
+      },
+      {
+       "date": "2026-10-30",
+       "run_id": 40980655554,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/40980655554/job/123825408496"
+      },
+      {
+       "date": "2026-10-15",
+       "run_id": 38713594736,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/38713594736/job/116355536057"
+      },
+      {
+       "date": "2026-10-07",
+       "run_id": 37593484605,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/37593484605/job/112704352926"
+      },
+      {
+       "date": "2026-10-06",
+       "run_id": 37457296787,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/37457296787/job/112253273147"
+      },
+      {
+       "date": "2026-10-06",
+       "run_id": 37433517216,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/37433517216/job/112174709331"
+      }
+     ],
+     "runs": 21,
+     "workflow": "Push (main)"
+    },
+    {
+     "buckets": [
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 6
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 6
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 3
+      }
+     ],
+     "failures": 0,
+     "infra_failures": 0,
+     "infra_kinds": {},
+     "job": "build-microcluster / Build binary",
+     "recent_failures": [],
+     "runs": 24,
+     "workflow": "Push (main)"
+    },
+    {
+     "buckets": [
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 6
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 6
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 3
+      }
+     ],
+     "failures": 0,
+     "infra_failures": 0,
+     "infra_kinds": {},
+     "job": "test-golang / Lint",
+     "recent_failures": [],
+     "runs": 24,
+     "workflow": "Push (main)"
+    },
+    {
+     "buckets": [
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 6
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 6
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 3
+      }
+     ],
+     "failures": 0,
+     "infra_failures": 0,
+     "infra_kinds": {},
+     "job": "test-golang / Unit tests",
+     "recent_failures": [],
+     "runs": 24,
+     "workflow": "Push (main)"
+    },
+    {
+     "buckets": [
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 6
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 6
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 3
+      }
+     ],
+     "failures": 0,
+     "infra_failures": 0,
+     "infra_kinds": {},
+     "job": "test-python / Lint",
+     "recent_failures": [],
+     "runs": 24,
+     "workflow": "Push (main)"
+    },
+    {
+     "buckets": [
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 6
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 6
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 3
+      }
+     ],
+     "failures": 0,
+     "infra_failures": 0,
+     "infra_kinds": {},
+     "job": "test-python / Type Check",
+     "recent_failures": [],
+     "runs": 24,
+     "workflow": "Push (main)"
+    },
+    {
+     "buckets": [
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 6
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 6
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 2
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 3
+      }
+     ],
+     "failures": 0,
+     "infra_failures": 0,
+     "infra_kinds": {},
+     "job": "test-python / Unit tests",
+     "recent_failures": [],
+     "runs": 24,
+     "workflow": "Push (main)"
+    },
+    {
+     "buckets": [
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 11
+      },
+      {
+       "failures": 1,
+       "infra_failures": 0,
+       "runs": 13
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 12
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 12
+      },
+      {
+       "failures": 9,
+       "infra_failures": 0,
+       "runs": 12
+      },
+      {
+       "failures": 12,
+       "infra_failures": 0,
+       "runs": 12
+      },
+      {
+       "failures": 12,
+       "infra_failures": 0,
+       "runs": 12
+      },
+      {
+       "failures": 12,
+       "infra_failures": 0,
+       "runs": 12
+      },
+      {
+       "failures": 12,
+       "infra_failures": 0,
+       "runs": 12
+      },
+      {
+       "failures": 9,
+       "infra_failures": 0,
+       "runs": 12
+      }
+     ],
+     "failures": 67,
+     "infra_failures": 0,
+     "infra_kinds": {},
+     "job": "Sync Git Tags from Snap Builds",
+     "recent_failures": [
+      {
+       "date": "2026-10-30",
+       "run_id": 41103715367,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/41103715367/job/124227204638"
+      },
+      {
+       "date": "2026-10-30",
+       "run_id": 41052922708,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/41052922708/job/124053169565"
+      },
+      {
+       "date": "2026-10-30",
+       "run_id": 41012252800,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/41012252800/job/123920520767"
+      },
+      {
+       "date": "2026-10-30",
+       "run_id": 40978213080,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/40978213080/job/123811409858"
+      },
+      {
+       "date": "2026-10-29",
+       "run_id": 40927584425,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/40927584425/job/123637105049"
+      },
+      {
+       "date": "2026-10-29",
+       "run_id": 40870605679,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/40870605679/job/123436360630"
+      },
+      {
+       "date": "2026-10-29",
+       "run_id": 40827344620,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/40827344620/job/123293308122"
+      },
+      {
+       "date": "2026-10-29",
+       "run_id": 40792512994,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/40792512994/job/123180921751"
+      },
+      {
+       "date": "2026-10-28",
+       "run_id": 40741884870,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/40741884870/job/123005343232"
+      },
+      {
+       "date": "2026-10-28",
+       "run_id": 40685097329,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/40685097329/job/122805297887"
+      },
+      {
+       "date": "2026-10-28",
+       "run_id": 40641967796,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/40641967796/job/122661931161"
+      },
+      {
+       "date": "2026-10-28",
+       "run_id": 40607233467,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/40607233467/job/122549656858"
+      },
+      {
+       "date": "2026-10-27",
+       "run_id": 40556603298,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/40556603298/job/122374218478"
+      },
+      {
+       "date": "2026-10-27",
+       "run_id": 40501570173,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/40501570173/job/122180281333"
+      },
+      {
+       "date": "2026-10-27",
+       "run_id": 40459539669,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/40459539669/job/122040618178"
+      },
+      {
+       "date": "2026-10-27",
+       "run_id": 40425210637,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/40425210637/job/121929126063"
+      },
+      {
+       "date": "2026-10-26",
+       "run_id": 40375232484,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/40375232484/job/121756366821"
+      },
+      {
+       "date": "2026-10-26",
+       "run_id": 40331422459,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/40331422459/job/121601529699"
+      },
+      {
+       "date": "2026-10-26",
+       "run_id": 40278582724,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/40278582724/job/121426597069"
+      },
+      {
+       "date": "2026-10-26",
+       "run_id": 40248588436,
+       "url": "https://github.com/canonical/snap-openstack/actions/runs/40248588436/job/121335331851"
+      }
+     ],
+     "runs": 120,
+     "workflow": "Sync Git Tags"
+    },
+    {
+     "buckets": [
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 1
+      },
+      {
+       "failures": 0,
+       "infra_failures": 0,
+       "runs": 0
+      }
+     ],
+     "failures": 0,
+     "infra_failures": 0,
+     "infra_kinds": {},
+     "job": "TICS",
+     "recent_failures": [],
+     "runs": 4,
+     "workflow": "TICS scan"
+    }
+   ]
+  },
+  "stable/2024.1": {
+   "jobs": []
+  },
+  "stable/2025.1": {
+   "jobs": []
+  }
+ },
+ "generated_at": "2026-10-31T12:29:06Z",
+ "repo": "canonical/snap-openstack",
+ "schema_version": 1,
+ "window": {
+  "lookback_days": 30,
+  "since": "2026-10-01T12:29:06Z",
+  "until": "2026-10-31T12:29:06Z"
+ }
+}

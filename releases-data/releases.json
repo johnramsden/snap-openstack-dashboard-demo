@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T12:55:45Z",
+ "generated_at": "2026-10-31T12:31:09Z",
  "schema_version": 4,
  "sources": {
   "snap-openstack": {
@@ -7,11 +7,11 @@
     {
      "arch": "amd64",
      "base": null,
-     "released_at": "2026-09-09T04:03:00.207144+00:00",
-     "revision": 1101,
+     "released_at": "2026-10-30T15:41:48.359654+00:00",
+     "revision": 1168,
      "risk": "stable",
      "track": "2024.1",
-     "version": "2024.1-e69efaea"
+     "version": "2024.1-509f72f6"
     },
     {
      "arch": "amd64",
@@ -34,11 +34,11 @@
     {
      "arch": "amd64",
      "base": null,
-     "released_at": "2026-10-29T23:07:04.990065+00:00",
-     "revision": 1161,
+     "released_at": "2026-10-30T15:28:55.706474+00:00",
+     "revision": 1166,
      "risk": "edge",
      "track": "2024.1",
-     "version": "2024.1-60c2155e"
+     "version": "2024.1-6d7bc7d2"
     },
     {
      "arch": "amd64",
@@ -52,47 +52,47 @@
     {
      "arch": "amd64",
      "base": null,
-     "released_at": "2026-10-30T04:34:17.285844+00:00",
-     "revision": 1162,
+     "released_at": "2026-10-30T15:32:02.283252+00:00",
+     "revision": 1167,
      "risk": "edge",
      "track": "2026.2",
-     "version": "2026.1-ab555305"
+     "version": "2026.1-fae86bab"
     },
     {
      "arch": "amd64",
      "base": null,
-     "released_at": "2026-10-14T19:57:36.194482+00:00",
-     "revision": 1146,
+     "released_at": "2026-10-30T17:00:19.769329+00:00",
+     "revision": 1165,
      "risk": "beta",
      "track": "2026.1",
-     "version": "2026.1-82b30b33"
+     "version": "2026.1-fb705f60"
     },
     {
      "arch": "amd64",
      "base": null,
-     "released_at": "2026-10-29T23:01:40.443262+00:00",
-     "revision": 1160,
+     "released_at": "2026-10-30T15:25:26.872104+00:00",
+     "revision": 1165,
      "risk": "edge",
      "track": "2026.1",
-     "version": "2026.1-976d976e"
+     "version": "2026.1-fb705f60"
     },
     {
      "arch": "amd64",
      "base": null,
-     "released_at": "2026-06-01T02:19:14.550440+00:00",
-     "revision": 1010,
+     "released_at": "2026-10-30T17:04:43.486298+00:00",
+     "revision": 1164,
      "risk": "beta",
      "track": "2025.1",
-     "version": "2024.1"
+     "version": "2025.1-c3c01858"
     },
     {
      "arch": "amd64",
      "base": null,
-     "released_at": "2026-10-17T01:19:08.280583+00:00",
-     "revision": 1156,
+     "released_at": "2026-10-30T15:22:34.575316+00:00",
+     "revision": 1164,
      "risk": "edge",
      "track": "2025.1",
-     "version": "2025.1-e98cebf4"
+     "version": "2025.1-c3c01858"
     },
     {
      "arch": "amd64",
@@ -149,7 +149,7 @@
      "version": "2023.1"
     }
    ],
-   "collected_at": "2026-10-30T12:55:45Z",
+   "collected_at": "2026-10-31T12:31:09Z",
    "revisions": {
     "1010": {
      "branch": null,
@@ -420,6 +420,41 @@
     "1162": {
      "branch": null,
      "commit": "ab555305",
+     "note": "",
+     "provenance": "version string",
+     "retryable": false
+    },
+    "1164": {
+     "branch": null,
+     "commit": "c3c01858",
+     "note": "",
+     "provenance": "version string",
+     "retryable": false
+    },
+    "1165": {
+     "branch": null,
+     "commit": "fb705f60",
+     "note": "",
+     "provenance": "version string",
+     "retryable": false
+    },
+    "1166": {
+     "branch": null,
+     "commit": "6d7bc7d2",
+     "note": "",
+     "provenance": "version string",
+     "retryable": false
+    },
+    "1167": {
+     "branch": null,
+     "commit": "fae86bab",
+     "note": "",
+     "provenance": "version string",
+     "retryable": false
+    },
+    "1168": {
+     "branch": null,
+     "commit": "509f72f6",
      "note": "",
      "provenance": "version string",
      "retryable": false
