@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T12:31:09Z",
+ "generated_at": "2026-11-01T13:26:33Z",
  "schema_version": 4,
  "sources": {
   "snap-openstack": {
@@ -149,7 +149,7 @@
      "version": "2023.1"
     }
    ],
-   "collected_at": "2026-10-31T12:31:09Z",
+   "collected_at": "2026-11-01T13:26:33Z",
    "revisions": {
     "1010": {
      "branch": null,
