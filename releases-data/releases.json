@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T16:56:10Z",
+ "generated_at": "2026-11-27T16:42:24Z",
  "schema_version": 4,
  "sources": {
   "snap-openstack": {
@@ -52,11 +52,11 @@
     {
      "arch": "amd64",
      "base": null,
-     "released_at": "2026-11-25T19:00:47.660691+00:00",
-     "revision": 1184,
+     "released_at": "2026-11-27T12:00:16.038479+00:00",
+     "revision": 1191,
      "risk": "edge",
      "track": "2026.2",
-     "version": "2026.1-63a67495"
+     "version": "2026.1-670501a6"
     },
     {
      "arch": "amd64",
@@ -70,11 +70,11 @@
     {
      "arch": "amd64",
      "base": null,
-     "released_at": "2026-11-26T10:48:43.452593+00:00",
-     "revision": 1185,
+     "released_at": "2026-11-27T05:48:15.923910+00:00",
+     "revision": 1190,
      "risk": "edge",
      "track": "2026.1",
-     "version": "2026.1-16e44568"
+     "version": "2026.1-8450cc2a"
     },
     {
      "arch": "amd64",
@@ -158,7 +158,7 @@
      "version": "2023.1"
     }
    ],
-   "collected_at": "2026-11-26T16:56:10Z",
+   "collected_at": "2026-11-27T16:42:24Z",
    "revisions": {
     "1010": {
      "branch": null,
@@ -562,6 +562,20 @@
     "1185": {
      "branch": null,
      "commit": "16e44568",
+     "note": "",
+     "provenance": "version string",
+     "retryable": false
+    },
+    "1190": {
+     "branch": null,
+     "commit": "8450cc2a",
+     "note": "",
+     "provenance": "version string",
+     "retryable": false
+    },
+    "1191": {
+     "branch": null,
+     "commit": "670501a6",
      "note": "",
      "provenance": "version string",
      "retryable": false
